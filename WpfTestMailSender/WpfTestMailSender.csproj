@@ -59,7 +59,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ТемаОформленияПрограммы\Theme.xaml">
+    <Page Include="ProgramTheme\Theme.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -71,8 +71,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="КлассыОтправкиПочты\EmailSendServiceClass.cs" />
-    <Compile Include="КлассыОтправкиПочты\MailYandex.cs" />
+    <Compile Include="MailClasses\EmailSendServiceClass.cs" />
+    <Compile Include="MailClasses\MailYandex.cs" />
     <Compile Include="SendEndWindow.xaml.cs">
       <DependentUpon>SendEndWindow.xaml</DependentUpon>
     </Compile>
